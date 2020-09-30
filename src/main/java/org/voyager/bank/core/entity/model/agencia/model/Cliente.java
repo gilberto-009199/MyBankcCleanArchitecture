@@ -3,82 +3,71 @@ package org.voyager.bank.core.entity.model.agencia.model;
 import java.util.List;
 import java.util.Map;
 
-import br.com.bradesco.core.entity.model.agencia.ICliente;
-import br.com.bradesco.core.entity.model.agencia.IConta;
-import br.com.bradesco.core.entity.model.agencia.IEndereco;
+import org.voyager.bank.core.entity.model.agencia.ICliente;
+import org.voyager.bank.core.entity.model.agencia.IConta;
+import org.voyager.bank.core.entity.model.agencia.IEndereco;
+
 
 public abstract class Cliente implements ICliente {
+	
+	private String nome;
+	
+	private Map<String, String> emails;
+	
+	private List<IConta> contas;
+			
+	private Map<String, Integer> Telefone;
+	
+	private Map<String, Integer> celular;
+		
+	private List<IEndereco> enderecos;
 
-	@Override
 	public String getNome() {
-		// TODO Auto-generated method stub
-		return null;
+		return nome;
 	}
 
-	@Override
 	public void setNome(String nome) {
-		// TODO Auto-generated method stub
-
+		this.nome = nome;
 	}
 
-	@Override
-	public Map<String, String> getEmail() {
-		// TODO Auto-generated method stub
-		return null;
+	public Map<String, String> getEmails() {
+		return emails;
 	}
 
-	@Override
+	public void setEmails(Map<String, String> emails) {
+		this.emails = emails;
+	}
+
 	public List<IConta> getContas() {
-		// TODO Auto-generated method stub
-		return null;
+		return contas;
 	}
 
-	@Override
 	public void setContas(List<IConta> contas) {
-		// TODO Auto-generated method stub
-
+		this.contas = contas;
 	}
 
-	@Override
-	public void setEmail(Map<String, String> email) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
 	public Map<String, Integer> getTelefone() {
-		// TODO Auto-generated method stub
-		return null;
+		return Telefone;
 	}
 
-	@Override
 	public void setTelefone(Map<String, Integer> telefone) {
-		// TODO Auto-generated method stub
-
+		Telefone = telefone;
 	}
 
-	@Override
 	public Map<String, Integer> getCelular() {
-		// TODO Auto-generated method stub
-		return null;
+		return celular;
 	}
 
-	@Override
 	public void setCelular(Map<String, Integer> celular) {
-		// TODO Auto-generated method stub
-
+		this.celular = celular;
 	}
 
-	@Override
 	public List<IEndereco> getEnderecos() {
-		// TODO Auto-generated method stub
-		return null;
+		return enderecos;
 	}
 
-	@Override
 	public void setEnderecos(List<IEndereco> enderecos) {
-		// TODO Auto-generated method stub
-
+		this.enderecos = enderecos;
 	}
-
+	
 }

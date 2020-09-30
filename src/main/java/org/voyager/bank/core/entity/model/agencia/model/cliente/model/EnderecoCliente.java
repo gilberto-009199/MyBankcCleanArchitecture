@@ -1,6 +1,6 @@
 package org.voyager.bank.core.entity.model.agencia.model.cliente.model;
 
-import br.com.bradesco.core.entity.model.agencia.IEndereco;
+import org.voyager.bank.core.entity.model.agencia.IEndereco;
 
 public class EnderecoCliente implements IEndereco{
 

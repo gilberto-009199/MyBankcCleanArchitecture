@@ -3,8 +3,8 @@ package org.voyager.bank.core.usecases.conta;
 import java.util.List;
 import java.util.UUID;
 
-import br.com.bradesco.core.entity.model.agencia.conta.ContaCorrente;
-import br.com.bradesco.core.usecases.ContaRepositoryImpl;
+import org.voyager.bank.core.entity.model.agencia.conta.ContaCorrente;
+import org.voyager.bank.core.usecases.ContaRepositoryImpl;
 
 public interface ContaConcorrenteRepositoryImpl extends ContaRepositoryImpl<ContaCorrente>{
 	

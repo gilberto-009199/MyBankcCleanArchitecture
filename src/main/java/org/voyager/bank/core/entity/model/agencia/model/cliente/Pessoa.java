@@ -3,12 +3,14 @@ package org.voyager.bank.core.entity.model.agencia.model.cliente;
 import java.util.List;
 import java.util.Map;
 
-import br.com.bradesco.core.entity.model.agencia.ICliente;
-import br.com.bradesco.core.entity.model.agencia.IConta;
-import br.com.bradesco.core.entity.model.agencia.IEndereco;
+import org.voyager.bank.core.entity.model.agencia.ICliente;
+import org.voyager.bank.core.entity.model.agencia.IConta;
+import org.voyager.bank.core.entity.model.agencia.IEndereco;
+import org.voyager.bank.core.entity.model.agencia.model.Cliente;
 
 
-public class Pessoa implements ICliente {
+
+public class Pessoa extends Cliente  {
 
 	private String nome;
 	private Map<String,String> email;

@@ -2,9 +2,10 @@ package org.voyager.bank.core.entity.model;
 
 import java.util.List;
 
-import br.com.bradesco.core.entity.IAgencia;
-import br.com.bradesco.core.entity.model.agencia.IConta;
-import br.com.bradesco.core.entity.model.agencia.IEndereco;
+import org.voyager.bank.core.entity.IAgencia;
+import org.voyager.bank.core.entity.model.agencia.IConta;
+import org.voyager.bank.core.entity.model.agencia.IEndereco;
+
 
 public class Agencia implements IAgencia{
 	

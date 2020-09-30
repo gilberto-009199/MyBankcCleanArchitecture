@@ -3,8 +3,8 @@ package org.voyager.bank.core.usecases.cliente;
 import java.util.List;
 import java.util.UUID;
 
-import br.com.bradesco.core.entity.model.agencia.model.cliente.Pessoa;
-import br.com.bradesco.core.usecases.ClientRepositoryImpl;
+import org.voyager.bank.core.entity.model.agencia.model.cliente.Pessoa;
+import org.voyager.bank.core.usecases.ClientRepositoryImpl;
 
 public interface PessoasRepositoryImpl extends ClientRepositoryImpl<Pessoa>{
 	

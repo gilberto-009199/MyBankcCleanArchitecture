@@ -2,7 +2,8 @@ package org.voyager.bank.core.usecases;
 
 import java.util.List;
 import java.util.UUID;
-import br.com.bradesco.core.entity.IAgencia;
+
+import org.voyager.bank.core.entity.IAgencia;
 
 
 public interface AgenciaRepositoryImpl {

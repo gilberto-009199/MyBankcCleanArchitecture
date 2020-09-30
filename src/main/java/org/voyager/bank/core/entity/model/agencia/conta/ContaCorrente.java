@@ -2,7 +2,7 @@ package org.voyager.bank.core.entity.model.agencia.conta;
 
 import java.math.BigDecimal;
 
-import br.com.bradesco.core.entity.model.agencia.IConta;
+import org.voyager.bank.core.entity.model.agencia.IConta;
 
 public class ContaCorrente implements IConta{
 	
